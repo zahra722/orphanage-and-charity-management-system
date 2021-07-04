@@ -1,0 +1,36 @@
+.row-header
+{
+    margin: 0px auto;
+    padding: 0px auto;
+    background-color: rgb(116, 108, 108);
+    border-radius: 10px;
+}
+
+.row-content{
+    margin: 10px auto;
+    padding: 50px 0 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 300px;
+    background-color: rgb(238, 91, 91);
+  
+}
+
+.footer{
+    background-color: rgb(183, 117, 209);
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron{
+    padding: 70px 30px;
+    margin:0px auto;
+    background-color:rgb(183, 117, 209) ;
+    color: rgb(217, 219, 221);
+}
+/* .address{
+    font-size: 80px;
+    margin: 0;
+    color: rgb(255, 41, 41);
+} */
+body{
+    background-color: bisque;
+}
