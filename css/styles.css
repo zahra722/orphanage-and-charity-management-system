@@ -2,7 +2,7 @@
 {
     margin: 0px auto;
     padding: 0px auto;
-    background-color: rgb(116, 108, 108);
+    /* background-color: rgb(116, 108, 108); */
     border-radius: 10px;
 }
 
@@ -11,7 +11,7 @@
     padding: 50px 0 50px 0;
     border-bottom: 1px ridge;
     min-height: 300px;
-    background-color: rgb(238, 91, 91);
+    /* background-color: rgb(238, 91, 91); */
   
 }
 
@@ -26,11 +26,15 @@
     background-color:rgb(183, 117, 209) ;
     color: rgb(217, 219, 221);
 }
-/* .address{
+/* address{
     font-size: 80px;
     margin: 0;
-    color: rgb(255, 41, 41);
+    color: black;
 } */
 body{
-    background-color: bisque;
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+.navbar-dark{
+    background-color: #512DA8;
 }
