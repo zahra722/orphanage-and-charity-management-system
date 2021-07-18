@@ -76,6 +76,69 @@
       </div>
     </div>
   </div>
+  <div id="reserveModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg " role="content">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Reserve a Table</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group row">
+              <label for="Number" class="col-form-label col-sm-12 col-md-2">Number of Guests</label>
+              <div class=" col-sm-8 col-md-9 ">
+                <input type="radio" id="Number" name="enables">
+                <label class="form-check-label">1</label>&nbsp;
+                <input type="radio" id="Number" name="enables">
+                <label class="form-check-label">2</label>&nbsp;
+                <input type="radio" id="Number" name="enables">
+                <label class="form-check-label">3</label>&nbsp;
+                <input type="radio" id="Number" name="enables">
+                <label class="form-check-label">4</label>&nbsp;
+                <input type="radio" id="Number" name="enables">
+                <label class="form-check-label">5</label>&nbsp;
+                <input type="radio" id="Number" name="enables">
+                <label class="form-check-label">6</label>&nbsp;
+              </div>
+            </div>
+            <div class="from-group row">
+              <label for="cb" class="col-form-label col-sm-12  col-md-2">Section</label>
+              <div class=" btn-group btn-group-toggle col-md-auto " data-toggle="buttons">
+                <label class="btn btn-success active ">
+                  <input type="checkbox" name="option" id="cb" autocomplete="off">Non-Smoking</input></label>
+                <label class="btn btn-danger  ">
+                  <input type="checkbox" name="option" id="cb" autocomplete="off">Smoking </input></label>
+              </div>
+            </div><br>
+
+            <div class="form-group row">
+              <label for="date and time" class="col-form-label col-sm-12 col-md-2 ">Date and
+                Time</label>
+              <div class="col-10  col-md-4 ">
+                <input type="text" name="date" id="date and time" class="form-control" placeholder="Dates">
+              </div>
+              <div class=" col-10 col-md-4 ">
+                <input type="text" name="date" id="date and time" class="form-control" placeholder="Time">
+              </div>
+              <div class="col-md-">
+
+              </div>
+            </div>
+            <div class="form-row ">
+              <button type="button" class="btn btn-secondary offset-md-2" data-dismiss="modal">Cancel</button>
+              <button type="submit" class="btn btn-primary  ml-1">Reserve</button>
+            </div>
+
+        </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+
 
   <header class="jumbotron">
     <div class="container">
@@ -90,9 +153,10 @@
 
         </div>
         <div class="col-12 col-sm-3  align-self-center ">
-          <a class="btn btn-warning  btn-lg nav-link  btn-block" role="button" data-toggle="tooltip" data-html="true" title="Or Call us at  <br><strong>+852 12345678</strong>" data-placement="bottom" name="Reserve " href="#Goto"><strong>
+          <!-- <a class="btn btn-warning  btn-lg nav-link  btn-block" role="button" data-toggle="tooltip" data-html="true" title="Or Call us at  <br><strong>+852 12345678</strong>" data-placement="bottom" name="Reserve " href="#Goto"><strong>
               Reserve
-              Table</strong></a>
+              Table</strong></a> -->
+          <a class="btn btn-warning btn-lg btn-block" role=button data-toggle="modal" data-target="#reserveModal">Reserve Table </a>
 
         </div>
       </div>
@@ -140,13 +204,13 @@
             </div>
           </div>
 
-            <ol class="carousel-indicators">
-              <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#mycarousel" data-slide-to="1"></li>
-              <li data-target="#mycarousel" data-slide-to="2"></li>
-            </ol>
-            <a href="#mycarousel" role="button" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"> </span></a>
-            <a href="#mycarousel" role="button" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+          <ol class="carousel-indicators">
+            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"></li>
+            <li data-target="#mycarousel" data-slide-to="2"></li>
+          </ol>
+          <a href="#mycarousel" role="button" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"> </span></a>
+          <a href="#mycarousel" role="button" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
         </div>
       </div>
 
@@ -219,13 +283,13 @@
       </div>
     </div>
 
-    <div class="row row-content align-item-center">
+    <!-- <div class="row row-content align-item-center">
       <div class="col-12 col-sm-2"></div>
-      <div class="  col-12 col-sm-8">
-        <div class="card">
+      <div class="  col-12 col-sm-8"> -->
+    <!-- <div class="card">
           <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-          <div class="card-body">
-            <form id="Goto">
+          <div class="card-body"> -->
+    <!-- <form id="Goto">
               <div class="form-group row">
                 <label for="Number" class="col-form-label col-sm-12 col-md-2">Number of Guests</label>
                 <div class=" col-sm-8 col-md-9 ">
@@ -261,12 +325,12 @@
               </div>
 
           </div>
-          </form>
-        </div>
+          </form> -->
+    <!-- </div>
       </div>
 
     </div>
-  </div>
+  </div> -->
 
   </div>
 
@@ -317,11 +381,11 @@
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     $(document).ready(function() {
       $('[data-toggle="tooltip"]').tooltip();
     });
-  </script>
+  </script> -->
 </body>
 
 </html>
