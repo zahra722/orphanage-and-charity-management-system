@@ -1,0 +1,89 @@
+
+
+ .navbar .navbar-brand a{
+padding: 1rem 0;
+display: block;
+text-decoration: none;
+}
+.navbar-brand{
+  font-family:cursive;
+  font-size: 1.5rem;
+font-weight: bolder;
+
+}
+
+.img-fluid{
+  height: 600px;
+
+}
+.button{
+  padding: 20px
+}
+.content-css{
+  margin: 10px auto;
+  padding: 50px 0 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 300px;
+  /* background-color: rgb(238, 91, 91); */
+}
+
+.navbar{
+/* background: white; */
+padding: 0.5rem 1rem;
+font-family:cursive;
+
+
+}
+
+.Mission{
+  border-radius: 250px;
+  border-style: none;
+}
+.Vision{
+  border-radius: 250px;
+  border-style: none;
+}
+a{
+  text-decoration: none;
+  font-weight: 500;
+
+}
+a:hover{
+  color:rgb(51, 255, 0);
+}
+ul{
+  list-style-type: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+padding: 10px;
+font-size: 1.4rem;
+position:relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+border-top:4px solid red ;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+border-top:4px solid red ;
+color: #e74c3c;
+}
+.navbar-nav button{
+  padding: 0.5rem 1.8rem;
+  width: 200px;
+}
+.navbar-nav .btn{
+     background: linear-gradient(to bottom, #ff0000 0%, #ff99cc 100%);
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  margin-top:0px;
+}
+.navbar-nav .btn:hover{
+ background: linear-gradient(to bottom, #ff0000 0%, #3366ff 100%);
+}
+.footer {
+  background-color:black;
+  color: white;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
